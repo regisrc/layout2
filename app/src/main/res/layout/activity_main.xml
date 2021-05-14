@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bloco0"
+        android:layout_width="195dp"
+        android:layout_height="377dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#000000" />
+
+    <ImageView
+        android:id="@+id/bloco1"
+        android:layout_width="192dp"
+        android:layout_height="374dp"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#FFFFFF"
+        android:layout_below="@+id/bloco0"/>
+
+    <ImageView
+        android:id="@+id/bloco2"
+        android:layout_width="216dp"
+        android:layout_height="278dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/bloco0"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#5C00FF" />
+
+    <ImageView
+        android:id="@+id/bloco3"
+        android:layout_width="216dp"
+        android:layout_height="225dp"
+        android:layout_below="@id/bloco2"
+        android:layout_toRightOf="@id/bloco0"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#FFEB3B" />
+
+    <ImageView
+        android:id="@+id/bloco4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_launcher_background"
+        android:backgroundTint="#FF0000"
+        android:layout_toRightOf="@id/bloco0"
+        android:layout_below="@id/bloco3"/>
+</RelativeLayout>
